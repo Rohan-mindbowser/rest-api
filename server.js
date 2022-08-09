@@ -40,6 +40,10 @@ connection.once("open", function () {
   logger.info("MongoDB database connection established successfully...");
 });
 
+
+//Deployed url
+// https://fast-earth-19193.herokuapp.com/api/getbooks
+
 //Server listening
 app.listen(PORT, () => {
   logger.warn(`Server running on port ${PORT}`);
