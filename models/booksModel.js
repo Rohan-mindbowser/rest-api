@@ -9,7 +9,7 @@ let book = new Schema({
     type: String,
   },
   publish_year: {
-    type: String,
+    type: Number,
   },
   category: {
     type: String,
